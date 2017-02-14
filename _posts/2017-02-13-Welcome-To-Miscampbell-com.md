@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Welcome to Miscampbell.com!"
-categories: journal
+categories: blog
 tags: [welcome,thoughts]
 image:
   feature: sunrise-large.jpg
