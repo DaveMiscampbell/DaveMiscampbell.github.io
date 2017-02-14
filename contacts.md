@@ -1,6 +1,10 @@
 ---
 layout: page
-title: Contact
+title: Contact Dave
 ---
 
-If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=My%question%about%Lagrange%is:%&amp;via=paululele), or [file a GitHub issue](https://github.com/lenpaul/lagrange/issues/new)
+If you're looking to get in touch, [tweet me](https://twitter.com/intent/tweet?text=My%question%for%Dave%is:%&amp;via={{site.author.twitter}}).
+
+Alternatively, you can [email me](mailto:david@miscampbell.com)
+
+I look forward to hearing from you.
