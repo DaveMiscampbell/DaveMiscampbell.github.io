@@ -1,20 +1,21 @@
 # Site Settings
-title:               Lagrange
-tagline:             a minimalist Jekyll theme
+title:               Dave Miscampbell
+tagline:             General Specific
 description:
 baseurl:            #"/Lagrange"
 url:                #"https://lenpaul.github.io"
 github:
-  url:               "https://lenpaul.github.io/Lagrange"
+  url:               "https://davemiscampbell.github.io"
 author:
-  name:              "Paul Le"
-  email:             "l.nguyen.paul@gmail.com"
-  twitter:           "paululele"
-  instagram:         "paululele"
-  github:            "lenpaul"
-  facebook:          "Le.Paul.94"
-  linkedin:          "lenpaul"
-paginate:            5
+  name:              "Dave Miscampbell"
+  email:             "david@miscampbell.com"
+  twitter:           "DaveMiscampbell"
+  instagram:         "leprechaun922001"
+  github:            "DaveMiscampbell"
+  facebook:          "david.miscampbell"
+  linkedin:          "davemiscampbell"
+paginate:            10
+google_analytics:    ""
 
 
 # Build settings
