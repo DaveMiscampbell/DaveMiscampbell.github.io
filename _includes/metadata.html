@@ -1,0 +1,49 @@
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#ffffff"> 
+
+{% if page.layout == "post" %}
+<meta property="og:url" content="{{ site.github.url }}{{ page.url }}" />
+<meta property="og:image" content="{{page.image.feature}}" />
+<meta property="og:title" content="{{page.title}}" />
+<meta property="og:description" content="{{page.excerpt | strip_html }}" />
+<meta property="og:site_name" content="Miscampbell.com" />
+<meta property="og:image:width" content="1024" />
+<meta property="og:image:height" content="600" />
+
+<meta property="og:type" content="article" />
+<meta property="article:author" content="https://www.facebook.com/{{site.author.facebook}}" />
+<meta property="article:publisher" content="https://www.facebook.com/{{site.author.facebook}}" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{page.title}}" />
+<meta name="twitter:description" content="{{page.excerpt | strip_html }}" />
+<meta name="twitter:image:src" content="{{page.image.feature}}" />
+<meta name="twitter:domain" content="{{site.github.url | remove: 'http://' | remove: 'https://' }}" />
+<meta name="twitter:site" content="{{site.author.twitter}}" />
+
+<link rel="canonical" href="{{ site.github.url }}{{ page.url }}" />
+<meta name="description" content="{{page.excerpt | strip_html }}" /> 
+
+{% else %}
+
+<meta property="og:url" content="{{ site.github.url }}" />
+<meta property="og:image" content="{{ site.github.url }}images/sunrise-large.jpg" />
+<meta property="og:title" content="{{ site.title }} | {{ site.tagline }}" />
+<meta property="og:description" content="{{ site.description }}" />
+<meta property="og:site_name" content="Miscampbell.com" />
+<meta property="og:image:width" content="1024" />
+<meta property="og:image:height" content="600" />
+
+<meta property="og:type" content="website" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ site.title }} | {{ site.tagline }}" />
+<meta name="twitter:description" content="{{ site.description }}" />
+<meta name="twitter:image:src" content="{{ site.github.url }}images/sunrise-large.jpg" />
+<meta name="twitter:domain" content="{{site.github.url | remove: 'http://' | remove: 'https://' }}" />
+<meta name="twitter:site" content="{{site.author.twitter}}" />
+
+{% endif %}
