@@ -6,7 +6,7 @@
 
 {% if page.layout == "post" %}
 <meta property="og:url" content="{{ site.github.url }}{{ page.url }}" />
-<meta property="og:image" content="{{page.image.feature}}" />
+<meta property="og:image" content="{{site.github.url}}/images/{{page.image.feature}}" />
 <meta property="og:title" content="{{page.title}}" />
 <meta property="og:description" content="{{page.excerpt | strip_html }}" />
 <meta property="og:site_name" content="Miscampbell.com" />
@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="{{page.title}}" />
 <meta name="twitter:description" content="{{page.excerpt | strip_html }}" />
-<meta name="twitter:image:src" content="{{page.image.feature}}" />
+<meta name="twitter:image:src" content="{{site.github.url}}/images/{{page.image.feature}}" />
 <meta name="twitter:domain" content="{{site.github.url | remove: 'http://' | remove: 'https://' }}" />
 <meta name="twitter:site" content="{{site.author.twitter}}" />
 
