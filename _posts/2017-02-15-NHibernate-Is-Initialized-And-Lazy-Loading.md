@@ -4,6 +4,7 @@ title: "NHibernate, IsInitialized and Lazy Loading"
 categories: blog
 tags: [programming,learning]
 image:
+  path: "https://www.miscampbell.com/images/lazy-load-large.png"
   feature: lazy-load-large.png
   teaser: lazy-load-small.png
   credit: Smashing Magazine

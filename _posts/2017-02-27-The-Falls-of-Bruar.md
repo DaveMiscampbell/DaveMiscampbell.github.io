@@ -5,8 +5,6 @@ categories: blog
 tags: [thoughts, photos]
 image:
   teaser: falls-of-bruar-small.jpg
-  credit: Dave Miscampbell
-  creditlink: ""
 ---
 
 Last week I was on holiday (so no blogging) however, on my return it appears my photography skills were substantially improved by Google Photos.

@@ -4,6 +4,7 @@ title: "Shaking Hands with Death"
 categories: blog
 tags: [thoughts]
 image:
+  path: "https://www.miscampbell.com/images/terry-pratchett-large.jpg"
   feature: terry-pratchett-large.jpg
   teaser: terry-pratchett-small.jpg
   credit: Szymon Sokol

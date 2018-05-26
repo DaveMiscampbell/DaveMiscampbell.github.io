@@ -22,4 +22,6 @@ google_analytics:    "UA-46951813-1"
 markdown:            kramdown
 highlighter:         rouge
 permalink:           none
-gems:                [jekyll-paginate]
+plugins:
+  - jekyll-paginate
+  - jekyll-feed

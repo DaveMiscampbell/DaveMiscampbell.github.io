@@ -4,6 +4,7 @@ title: "NWebSec and Content Security Policies"
 categories: blog
 tags: [programming,learning]
 image:
+  path: "https://www.miscampbell.com/images/security-large.jpg"
   feature: security-large.jpg
   teaser: security-small.jpg
   credit: Blue Coat Photos

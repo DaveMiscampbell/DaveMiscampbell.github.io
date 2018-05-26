@@ -4,6 +4,7 @@ title: "Hans Rosling"
 categories: blog
 tags: [statistics,thoughts]
 image:
+  path: "https://www.miscampbell.com/images/hans-rosling-large.jpg"
   feature: hans-rosling-large.jpg
   teaser: hans-rosling-small.jpg
   credit: TED

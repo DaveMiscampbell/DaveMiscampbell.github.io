@@ -4,6 +4,7 @@ title: "Post-Truth"
 categories: blog
 tags: [thoughts]
 image:
+  path: "https://www.miscampbell.com/images/eu-bus-large.jpg"
   feature: eu-bus-large.jpg
   teaser: eu-bus-small.jpg
   credit: Buzzfeed
