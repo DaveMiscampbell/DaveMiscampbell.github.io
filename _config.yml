@@ -2,8 +2,6 @@
 title:               Dave Miscampbell
 tagline:             General Specific
 description:         "Piano playing. Whisky drinking. Programming, Book reading. Sport watching. Technical Director at StormIdeas. Sometime I have my own thoughts."
-baseurl:            #"/Lagrange"
-url:                #"https://lenpaul.github.io"
 github:
   url:               "https://www.miscampbell.com"
 author:
@@ -21,7 +19,8 @@ google_analytics:    "UA-46951813-1"
 # Build settings
 markdown:            kramdown
 highlighter:         rouge
-permalink:           none
+permalink:           pretty
 plugins:
   - jekyll-paginate
   - jekyll-feed
+  - jekyll-sitemap
