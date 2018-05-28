@@ -5,7 +5,7 @@
 body {
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
   font-size: 18px;
-  color: #515151;/*#3A3A3A;/*rgba(0,0,0,.8);/*#666;*/
+  color: #515151; /*#3A3A3A;/*rgba(0,0,0,.8);/*#666;*/
   line-height: 1.75rem;
 }
 
@@ -15,7 +15,7 @@ body {
   }
 }
 
-h1{
+h1 {
   font-size: 2rem;
 }
 
@@ -23,7 +23,12 @@ h1 a {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Quattrocento Sans", sans-serif;
   color: #333;
 }
@@ -31,16 +36,16 @@ h1, h2, h3, h4, h5, h6 {
 a {
   text-decoration: underline;
   /*border-bottom: 1px solid black;*/
-  color: #333;/*#FF333E;*/
-  -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
+  color: #333; /*#FF333E;*/
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 a:hover {
-  color: black;/*#999;*/
+  color: black; /*#999;*/
   border-bottom: none;
 }
 
@@ -76,7 +81,7 @@ blockquote {
   margin: 1.5em 10px;
   color: #999;
   padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
+  quotes: "\201C" "\201D" "\2018" "\2019";
 }
 blockquote:before {
   color: #ccc;
@@ -106,7 +111,6 @@ blockquote p {
   }
 }
 
-
 @media (max-width: 48em) {
   .container {
     width: 75vw;
@@ -125,11 +129,11 @@ blockquote p {
 }
 
 .masthead a:hover {
-  color:black;
+  color: black;
 }
 
 .masthead-title a {
-  font-size: 2rem;/*25px;*/
+  font-size: 2rem; /*25px;*/
   text-decoration: none;
   color: #505050;
 }
@@ -162,8 +166,8 @@ blockquote p {
   display: block;
   margin-bottom: 1rem;
   color: #9a9a9a;
-  font-family: 'Quattrocento Sans', sans-serif;
-  font-size:0.8rem;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 0.8rem;
 }
 
 .related-posts {
@@ -187,7 +191,7 @@ blockquote p {
 
 .pagination {
   overflow: hidden;
-  font-family: 'Quattrocento Sans', sans-serif;
+  font-family: "Quattrocento Sans", sans-serif;
   text-align: center;
 }
 
@@ -272,32 +276,32 @@ blockquote p {
 
 pre,
 code {
-    font-size: 0.8rem;
-    border-radius: 3px;
-    background-color: #f5f5f5;
-    font-family: "Source Code Pro";
+  font-size: 0.8rem;
+  border-radius: 3px;
+  background-color: #f5f5f5;
+  font-family: "Source Code Pro";
 }
 
 code {
-    padding: 1px 5px;
+  padding: 1px 5px;
 }
 
 pre {
-    padding: 8px 12px;
-    overflow-x: auto;
+  padding: 8px 12px;
+  overflow-x: auto;
+}
 
-    > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
-    }
+pre > code {
+  border: 0;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .highlight .lineno {
   color: #aaa;
-  display:inline-block;
+  display: inline-block;
   padding: 0 5px;
-  border-right:1px solid #ccc;
+  border-right: 1px solid #ccc;
 }
 
 .highlight pre code {
@@ -306,7 +310,6 @@ pre {
   overflow-x: auto;
   word-wrap: normal;
 }
-
 
 /*
   Social media icons
@@ -322,130 +325,130 @@ pre {
 
 .fa-envelope {
   padding: 5px;
-	-o-transition:.5s;
-  	-ms-transition:.5s;
-  	-moz-transition:.5s;
-  	-webkit-transition:.5s;
-  	transition: .5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .fa-envelope:hover {
-	color: #f39c12;
+  color: #f39c12;
 }
 
 .fa-twitter {
   padding: 5px;
-	-o-transition:.5s;
-  	-ms-transition:.5s;
-  	-moz-transition:.5s;
-  	-webkit-transition:.5s;
-  	transition: .5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .fa-twitter:hover {
-	color: #00aced;
+  color: #00aced;
 }
 
 .fa-instagram {
   padding: 5px;
-	-o-transition:.5s;
-  	-ms-transition:.5s;
-  	-moz-transition:.5s;
-  	-webkit-transition:.5s;
-  	transition: .5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .fa-instagram:hover {
-	color: #375989;
+  color: #375989;
 }
 
 .fa-github {
   padding: 5px;
-	-o-transition:.5s;
-  	-ms-transition:.5s;
-  	-moz-transition:.5s;
-  	-webkit-transition:.5s;
-  	transition: .5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .fa-github:hover {
-	color: #343434;
+  color: #343434;
 }
 
 .fa-linkedin {
   padding: 5px;
-	-o-transition:.5s;
-  	-ms-transition:.5s;
-  	-moz-transition:.5s;
-  	-webkit-transition:.5s;
-  	transition: .5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .fa-linkedin:hover {
-	color: #0073a4;
+  color: #0073a4;
 }
 
 .fa-facebook {
   padding: 5px;
-	-o-transition:.5s;
-  	-ms-transition:.5s;
-  	-moz-transition:.5s;
-  	-webkit-transition:.5s;
-  	transition: .5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .fa-facebook:hover {
-	color: #3d5b99;
+  color: #3d5b99;
 }
 
 .fa-google-plus {
   padding: 5px;
-	-o-transition:.5s;
-  	-ms-transition:.5s;
-  	-moz-transition:.5s;
-  	-webkit-transition:.5s;
-  	transition: .5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .fa-google-plus:hover {
-	color: #e64a41;
+  color: #e64a41;
 }
 
 .fa-pinterest {
   padding: 5px;
-	-o-transition:.5s;
-  	-ms-transition:.5s;
-  	-moz-transition:.5s;
-  	-webkit-transition:.5s;
-  	transition: .5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .fa-pinterest:hover {
-	color: #bd081c;
+  color: #bd081c;
 }
 
 .fa-medium {
   padding: 5px;
-	-o-transition:.5s;
-  	-ms-transition:.5s;
-  	-moz-transition:.5s;
-  	-webkit-transition:.5s;
-  	transition: .5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .fa-medium:hover {
-	color: #00AB6C;
+  color: #00ab6c;
 }
 
 .fa-codepen {
   padding: 5px;
-	-o-transition:.5s;
-  	-ms-transition:.5s;
-  	-moz-transition:.5s;
-  	-webkit-transition:.5s;
-  	transition: .5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .fa-codepen:hover {
-	color: black;
+  color: black;
 }
