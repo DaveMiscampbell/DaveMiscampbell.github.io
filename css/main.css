@@ -166,10 +166,6 @@ blockquote p {
   font-size:0.8rem;
 }
 
-.related {
-  padding-bottom: 2rem;
-}
-
 .related-posts {
   padding-left: 0px;
   list-style: none;
@@ -177,6 +173,12 @@ blockquote p {
 
 .related-posts a {
   text-decoration: none;
+}
+
+.related-posts img {
+  float: left;
+  width: 40%;
+  padding-right: 20px;
 }
 
 /*

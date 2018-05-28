@@ -1,17 +1,31 @@
+{% assign related_articles = 0 %}
+{% assign listed_posts_urls = page.url | split: ' ' %}
+
+{% for tag in page.tags %}
+  {% for mypost in site.tags[tag] limit: 3 %}
+    {% if listed_posts_urls contains mypost.url %}
+    {% else %}
+      {% assign related_articles = related_articles | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+{% if related_articles > 1 %}
 <div class="related">
   <h1 >You may also enjoy:</h1>
-  {% assign listed_posts_urls = page.url | split: ' ' %}
+  
   <ul class="related-posts">
     {% for tag in page.tags %}
       {% for mypost in site.tags[tag] limit:3 %}
         {% if listed_posts_urls contains mypost.url %}
+        Dave
         {% else %}
           <li>
             <h3>
               <a href="{{ site.github.url }}{{ mypost.url }}">
-                {{ mypost.title }}
-                <!--<img src="{{ site.url }}{{ site.baseurl }}/images/{{ mypost.image.teaser }}">-->
-                <!--<small>{{ mypost.date | date: "%B %-d, %Y" }}</small>-->
+                <img src="{{ site.url }}{{ site.baseurl }}/images/{{ mypost.image.teaser }}" />
+                <span>{{ mypost.title }}</span>
+                <small class="post-date">{{ mypost.date | date: "%B %-d, %Y" }}</small>
               </a>
             </h3>
           </li>
@@ -21,3 +35,4 @@
     {% endfor %}
   </ul>
 </div>
+{% endif %}
