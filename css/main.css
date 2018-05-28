@@ -310,6 +310,10 @@ pre {
   Social media icons
 */
 
+.sharing-icons {
+  float: right;
+}
+
 .sharing-icons a {
   padding-right: 10px;
 }

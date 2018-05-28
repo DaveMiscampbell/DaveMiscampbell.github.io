@@ -16,8 +16,7 @@ layout: default
 
 {{ content }}
 
-<span class="post-date">
-  Written on
+<span class="post-date" style="float: left;">
   {% assign d = page.date | date: "%-d"  %}
   {{ page.date | date: "%B" }}
   {% case d %}
