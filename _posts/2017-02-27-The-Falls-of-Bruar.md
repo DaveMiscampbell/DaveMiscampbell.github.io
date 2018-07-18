@@ -5,6 +5,7 @@ categories: blog
 tags: [thoughts, photos]
 image:
   teaser: falls-of-bruar-small.jpg
+  alt: "The Falls of Bruar"
 ---
 
 Last week I was on holiday (so no blogging) however, on my return it appears my photography skills were substantially improved by Google Photos.

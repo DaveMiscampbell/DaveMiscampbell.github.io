@@ -9,6 +9,7 @@ image:
   teaser: eu-bus-small.jpg
   credit: Buzzfeed
   creditlink: "https://www.buzzfeed.com/jimwaterson/lets-take-back-control-of-the-steering-wheel"
+  alt: "The EU Bus"
 ---
 
 > In the UK’s EU referendum, the Leave side pushed the false claim that the UK sent £350m a week to the EU. It is hard to think of a previous example in modern western politics of a campaign leading with a transparent untruth, maintaining it when refuted by independent experts, and going on to triumph anyway. That performance was soon to be eclipsed by Donald Trump, who offered wave upon shameless wave of demonstrable falsehood, only to be rewarded with the presidency. The Oxford Dictionaries declared “post-truth” the word of 2016. Facts just didn’t seem to matter any more. ... Doubt is usually not hard to produce, and facts alone aren’t enough to dispel it. We should have learnt this lesson already; now we’re going to have to learn it all over again. ... Facts rarely stand up for themselves — they need someone to make us care about them, to make us curious. ... And faced with the apocalyptic possibility of a world where the facts don’t matter, that is the example we must follow.

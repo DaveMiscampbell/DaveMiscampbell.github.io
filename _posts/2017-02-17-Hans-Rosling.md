@@ -9,6 +9,7 @@ image:
   teaser: hans-rosling-small.jpg
   credit: TED
   creditlink: "https://www.youtube.com/watch?v=ezVk1ahRF78"
+  alt: "Hans Rosling"
 ---
 
 I like to listen to podcasts. Specifically, in the past 3 days podcasts which I am subscribed to and listen to regularly have published 24 hours of listening material. Fortunately, I've perfected the art of listening at double speed to most of the them which does save a big bunch of time.

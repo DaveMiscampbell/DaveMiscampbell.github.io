@@ -9,6 +9,7 @@ image:
   teaser: terry-pratchett-small.jpg
   credit: Szymon Sokol
   creditlink: "http://home.agh.edu.pl/~szymon/"
+  alt: "Terry Pratchett"
 ---
 
 > It is said that your life flashes before your eyes just before you die. That is true, it's called Life.

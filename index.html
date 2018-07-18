@@ -11,10 +11,10 @@ title: Home
   </h1>
   {% endif %}
   {% if post.image.teaser %}
-    <a href="{{ post.url }}"><img src="/images/{{ post.image.teaser }}"></a>
+    <a href="{{ post.url }}"><img src="/images/{{ post.image.teaser }}" alt="{{post.image.alt}}"></a>
   {% endif %}
   {% if post.mf-photo %}
-    <a href="{{ post.url }}"><img src="{{ post.mf-photo }}" ></a>
+    <a href="{{ post.url }}"><img src="{{ post.mf-photo }}" alt="{{post.content | strip_html}}" ></a>
   {% endif %}
   <p>
     {{ post.content | strip_html | truncate: 350 }}

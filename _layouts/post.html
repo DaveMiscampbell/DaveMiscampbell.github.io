@@ -7,11 +7,11 @@ layout: default
 </h1>
 
 {% if page.image.feature %}
-  <img src="/images/{{ page.image.feature }}">
+  <img src="/images/{{ page.image.feature }}" alt="{{page.image.alt}}"/>
 {% endif %}
 
 {% if page.mf-photo %}
-  <img src="{{ page.mf-photo }}">
+  <img src="{{ page.mf-photo }}" alt="{{content | strip_html}}">
 {% endif %}
 
 {{ content }}

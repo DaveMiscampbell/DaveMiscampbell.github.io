@@ -9,6 +9,7 @@ image:
   teaser: lazy-load-small.png
   credit: Smashing Magazine
   creditlink: "https://www.smashingmagazine.com/2015/02/redefining-lazy-loading-with-lazy-load-xt/"
+  alt: "Loading Spinner"
 ---
 
 This week I had a situation where I had a child object which could have been loaded from my database using NHibernate or which could have already been loaded. My default configuration is to lazy load the child object, however, it was actually quite a complex object so I had a more complex DB query to fetch it from the database. However, if I already had the object, I had no real desire to execute the DB query.

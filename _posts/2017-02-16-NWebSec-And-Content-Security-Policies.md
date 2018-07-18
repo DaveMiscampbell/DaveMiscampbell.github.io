@@ -9,6 +9,7 @@ image:
   teaser: security-small.jpg
   credit: Blue Coat Photos
   creditlink: "https://www.flickr.com/photos/111692634@N04/15855489588"
+  alt: "Padlock"
 ---
 
 Today I stumbled across an excellent open source library called <a href="https://www.nuget.org/packages/NWebsec" target="_blank">NWebSec</a>
