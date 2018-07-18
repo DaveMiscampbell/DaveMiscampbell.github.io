@@ -24,3 +24,6 @@ plugins:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
+webrick:
+  headers:
+    X-Miscampbell: Dave
