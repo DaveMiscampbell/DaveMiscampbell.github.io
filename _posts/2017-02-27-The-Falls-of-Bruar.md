@@ -14,4 +14,4 @@ Last week I was on holiday (so no blogging) however, on my return it appears my 
 
 > Any sufficiently advanced technology is indistinguishable from magic.
 
-<cite>Arthur C. Clarke</cite> --- <a href="https://en.wikipedia.org/wiki/Clarke's_three_laws" target="_blank">Clarke's Three Laws</a>
+<cite>Arthur C. Clarke</cite> --- <a href="https://en.wikipedia.org/wiki/Clarke's_three_laws" target="_blank" rel="noopener">Clarke's Three Laws</a>

@@ -5,7 +5,7 @@ title: About Dave
 
 ## What I Do
 
-I work at <a href="http://stormideas.com" target="_blank">Storm Ideas</a> in Edinburgh focussing on making excellent Internet applications for a modern TV industry.
+I work at <a href="http://stormideas.com" target="_blank" rel="noopener">Storm Ideas</a> in Edinburgh focussing on making excellent Internet applications for a modern TV industry.
 
 ## What I Used To Do
 
@@ -37,4 +37,4 @@ Less often I win.
 
 I've even been known to occasionally enjoy reading.
 
-My favorite (by which I mean favourite, in case you are from the UK) thing to do is to spend time with my wife, Maxine. You can read her thoughts on the history of reading at <a href="http://maxinebranagh.co.uk/" target="_blank">maxinebranagh.co.uk</a>.
+My favorite (by which I mean favourite, in case you are from the UK) thing to do is to spend time with my wife, Maxine. You can read her thoughts on the history of reading at <a href="http://maxinebranagh.co.uk/" target="_blank" rel="noopener">maxinebranagh.co.uk</a>.
