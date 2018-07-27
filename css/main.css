@@ -79,7 +79,7 @@ blockquote p:last-child {
 blockquote {
   border-left: 0.25rem solid #ccc;
   margin: 1.5em 10px;
-  color: #999;
+  color: #555;
   padding: 0.5em 10px;
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
@@ -139,7 +139,7 @@ blockquote p {
 }
 
 .masthead-subtitle {
-  color: #999;
+  color: #555;
 }
 
 @media (max-width: 30rem) {
@@ -200,7 +200,7 @@ blockquote p {
 }
 
 .pagination-button {
-  color: #999;
+  color: #555;
   border: 1px solid #e0e0e0;
   padding: 15px 45px;
   display: inline-block;
@@ -221,13 +221,13 @@ blockquote p {
 */
 
 .footer {
-  color: #999;
+  color: #555;
   text-align: center;
   margin: 2rem;
 }
 
 .footer a {
-  color: #999;
+  color: #555;
   padding: 10px;
   text-decoration: none;
 }
@@ -250,7 +250,7 @@ blockquote p {
 }
 
 .menu-content a {
-  color: #999;
+  color: #555;
   font-size: 1rem;
   padding-right: 10px;
 }
@@ -260,7 +260,7 @@ blockquote p {
 }
 
 .social-icons a {
-  color: #999;
+  color: #555;
   font-size: 1rem;
 }
 
