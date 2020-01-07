@@ -10,7 +10,9 @@ layout: default
   <img src="/images/{{ page.image.feature }}" alt="{{page.image.alt}}"/>
 {% endif %}
 
-{% if page.mf-photo %}
+{% if page.mf-photo[0] %}
+  <img src="{{ page.mf-photo[0] }}" alt="{{content | strip_html}}">
+{% else %}
   <img src="{{ page.mf-photo }}" alt="{{content | strip_html}}">
 {% endif %}
 
